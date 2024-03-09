@@ -1,5 +1,10 @@
+import "./styles.css"
+
 export const metadata = {
-  title: 'David Boo - page',
+  title: {
+    default: 'David Boo',
+    template: '%s | David Boo',
+  },
   description: 'My personal site',
 }
 
